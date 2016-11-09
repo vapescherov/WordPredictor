@@ -3,7 +3,11 @@ package com.vp.wordpredictor;
 import com.vp.wordpredictor.predictor.PredictionDictionary;
 import com.vp.wordpredictor.trie.MyTrie;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.InputStreamReader;
 
 public class App {
     public static void main(String[] args) {
