@@ -34,6 +34,7 @@ public class Client {
                 writer.newLine();
             }
             writer.newLine();
+            writer.flush();
         }
     }
 
