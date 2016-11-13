@@ -1,7 +1,5 @@
 package com.vp.wordpredictor.utils;
 
-import com.sun.istack.internal.Nullable;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -20,7 +18,6 @@ public class ReaderUtils {
         return value;
     }
 
-    @Nullable
     public static DictionaryEntry getDictionaryEntry(BufferedReader reader) throws IOException {
         String[] entry = reader.readLine().split(" ");
         if (entry.length != 2) {
